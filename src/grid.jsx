@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Cards from "./Card";
+import Cards from "./Card.jsx";
 import img1 from "./assets/hux1.jpg";
 import img2 from "./assets/hux2.jpg";
 import img3 from "./assets/hux3.jpg";
@@ -66,8 +66,6 @@ function Grid() {
           </Col>
         </Row>
       </Container>
-
-      
     </div>
   );
 }
