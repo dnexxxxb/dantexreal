@@ -1,13 +1,14 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Cards from "./MyCard.jsx";
+// import Cards from "./Card.jsx";
 import img1 from "./assets/hux1.jpg";
 import img2 from "./assets/hux2.jpg";
 import img3 from "./assets/hux3.jpg";
 import img4 from "./assets/hux4.jpg";
 import img5 from "./assets/hux5.jpg";
 import img6 from "./assets/hux6.jpg";
+import Cards from "./Cards";
 function Grid() {
   return (
     <div>
